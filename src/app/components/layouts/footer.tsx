@@ -36,7 +36,7 @@ const Footer = () => {
               <Image src={icons.gmail} alt="gmail" width={24} height={24} />
             </a>
           </div>
-          <div className="flex flex-col gap-4 text-black items-center md:items-start text-sm">
+          <div className="flex flex-col gap-4 text-black items-center md:items-end text-sm">
           <p className="text-[#F1FFF1] font-medium text-[15px]">Privacy Policy</p>
           <p className="text-[#F1FFF1] font-medium text-[15px]">Cookie Policy</p>
           <p className="text-[#F1FFF1] font-medium text-[15px]">Terms of Service</p>
