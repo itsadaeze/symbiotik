@@ -1,5 +1,7 @@
-import Logo from './LogoMain.svg'
+import logo from './LogoMain.svg'
+import menu from './menu.svg'
 
 export {
-    Logo
-}
+    logo,
+    menu,
+};
