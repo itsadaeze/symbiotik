@@ -4,6 +4,7 @@ import whatsapp from './whatsapp.svg'
 import instagram from './instagram.svg'
 import gmail from './gmail.svg'
 import about_icon from './about_icon.svg'
+import whyusicon from './whyusicon.svg'
 
 export {
     logo,
@@ -12,4 +13,5 @@ export {
     instagram,
     gmail,
     about_icon,
+    whyusicon
 };

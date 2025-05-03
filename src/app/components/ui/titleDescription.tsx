@@ -34,7 +34,7 @@ const TitleDescription: React.FC<CardProps> = ({
         />
       <div className=" ">
         <h2 className={`text-[20px] md:text-[24px] font-semibold mb-2 text-[#1B1B26] ${titleClassName}`}>{title}</h2>
-        <p className={`text-[#3A3846] text-[16px] md:text-[18px] w-[80%] ${descriptionClassName}`}>{description}</p>
+        <p className={`text-[#3A3846] text-[16px] md:text-[18px]  ${descriptionClassName}`}>{description}</p>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 
 import AboutUs from "./components/aboutus";
 import HeroContainer from "./components/hero";
+import WhyChooseUs from "./components/whyus";
 
 
 
@@ -9,6 +10,7 @@ export default function Home() {
    <div className="">
     <HeroContainer/>
     <AboutUs/>
+    <WhyChooseUs/>
 
    </div>
   );
