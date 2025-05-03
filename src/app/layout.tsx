@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from "./components/layouts/navbar";
 import Footer from "./components/layouts/footer";
 
+
 // Load Inter font
 const inter = Inter({
   variable: "--font-inter",
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
         <NavBar/>
+       
         {children}
         <Footer/>
       </body>

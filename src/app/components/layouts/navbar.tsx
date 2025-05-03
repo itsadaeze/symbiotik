@@ -3,9 +3,10 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import * as icons from '../../assets/icons';
+import * as icons from '../../../../public/assets/icons'
 import NavLinks from '../ui/navLinks';
-import ContactButton from '../ui/contactButton';
+
+import Button from '../ui/Button';
 
 
 const NavBar = () => {
@@ -23,7 +24,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-[#FFFFFF] px-[1rem] py-4 w-full md:px-[2rem] lg:px-8 fixed top-0 z-50">
+    <nav className="bg-[#FFFFFF] px-[1rem] py-4.5 w-full md:px-[2rem] lg:px-8 fixed top-0 z-50">
       <div className="max-w-[1400px] mx-auto flex justify-between items-center">
         <div className="">
           <Image src={icons.logo} alt="logo" width={80} height={80} />
@@ -36,7 +37,13 @@ const NavBar = () => {
 
      
         <div className="hidden md:block">
-          <ContactButton />
+        <Button
+        text="Contact Us"
+        textColor="text-white"
+        bgColor="bg-[#0F7BFF]"
+        borderColor="border border-[#0F7BFF]"
+        hoverBgColor="hover:bg-[#1c2837]"
+        />
         </div>
 
  
@@ -58,7 +65,11 @@ const NavBar = () => {
         {showMenu && (
           <div className="lg:hidden fixed flex flex-col inset-y-0 right-0 z-50 bg-[#060A14] mt-[4rem] shadow-lg w-full h-screen p-4">
             <NavLinks onClick={closeMenu} isMobile />
-            <ContactButton onClick={closeMenu} className="mt-10 w-2/5" />
+            <Button  text="Contact Us"
+            textColor="text-white"
+            bgColor="bg-[#0F7BFF]"
+           borderColor="border border-[#0F7BFF]"
+           hoverBgColor="hover:bg-[#1c2837]" className="mt-10 w-2/5" />
           </div>
         )}
       </div>

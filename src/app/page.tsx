@@ -1,8 +1,15 @@
 
+import AboutUs from "./components/aboutus";
+import HeroContainer from "./components/hero";
+
+
+
 export default function Home() {
   return (
-   <div>
-    <h1 className="border border-amber-400">Hello</h1>
+   <div className="">
+    <HeroContainer/>
+    <AboutUs/>
+
    </div>
   );
 }
