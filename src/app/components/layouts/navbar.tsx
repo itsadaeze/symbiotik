@@ -25,21 +25,21 @@ const NavBar = () => {
   return (
     <nav className="bg-[#FFFFFF] px-[1rem] py-4 w-full md:px-[2rem] lg:px-8 fixed top-0 z-50">
       <div className="max-w-[1400px] mx-auto flex justify-between items-center">
-        <div className="flex items-center text-2xl text-white">
+        <div className="">
           <Image src={icons.logo} alt="logo" width={80} height={80} />
         </div>
 
-        {/* Desktop Nav Links */}
+       
         <div className="hidden md:flex space-x-[4rem]">
           <NavLinks />
         </div>
 
-        {/* Desktop Contact Button */}
+     
         <div className="hidden md:block">
           <ContactButton />
         </div>
 
-        {/* Mobile Menu Toggle */}
+ 
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             {isXIcon ? (
@@ -54,7 +54,7 @@ const NavBar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+    
         {showMenu && (
           <div className="lg:hidden fixed flex flex-col inset-y-0 right-0 z-50 bg-[#060A14] mt-[4rem] shadow-lg w-full h-screen p-4">
             <NavLinks onClick={closeMenu} isMobile />
