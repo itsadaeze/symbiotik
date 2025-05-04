@@ -23,38 +23,56 @@ const WhyChooseUs = () => {
                             />
                            <h3 className="text-[28px] lg:text-[48px] font-semibold lg:tracking-tight lg:leading-15 w-[90%] lg:w-[73%] mt-6 text-center lg:text-start">Innovative tech tailored to your needs, built with precision and purpose.</h3>
                         </div>
-                        <div className=" flex flex-col mt-10 lg:mt-20   px-1 items-center lg:items-start gap-10 ">
+                        <div className=" flex flex-col mt-10 lg:mt-10   px-1 items-center lg:items-start gap-5 w-[90%] ">
                             <TitleDescription
                             image={icons.whyusicon}
-                            title="Premium Quality"
-                            description="Top-tier solar equipment from trusted manufacturers"
-                            titleClassName="text-[#1B1B26] text-center lg:text-left "
-                          descriptionClassName="text-[#3A3846]  text-[18px] text-center lg:text-left"
+                            title="Expertise"
+                            description="Our team has deep domain knowledge in embedded systems, IoT, and automation."
+                            titleClassName="text-[#1B1B26] text-center text-[20px] lg:text-left "
+                             descriptionClassName="text-[#3A3846]  text-[13px] text-center lg:text-left"
                             className = 'flex flex-col lg:flex-row gap-5 items-center lg:items-start'
                             imageClassName= 'w-15'
                             />
                             <TitleDescription
                             image={icons.whyusicon}
-                            title="Energy Independence"
-                            description="Complete power solutions with battery storage options"
-                            titleClassName="text-[#1B1B26] text-center lg:text-left "
-                          descriptionClassName="text-[#3A3846]  text-[18px] text-center lg:text-left"
+                            title="Customization"
+                            description="We provide tailor-made solutions to fit your unique business needs."
+                           titleClassName="text-[#1B1B26] text-center text-[20px] lg:text-left "
+                             descriptionClassName="text-[#3A3846]  text-[13px] text-center lg:text-left"
                             className = 'flex flex-col lg:flex-row gap-5 items-center lg:items-start'
                                imageClassName= 'w-15'
                             />
                              <TitleDescription
                             image={icons.whyusicon}
-                            title="Expert Installation"
-                            description="Professional installation and ongoing support"
-                            titleClassName="text-[#1B1B26] text-center lg:text-left "
-                             descriptionClassName="text-[#3A3846]  text-[18px] text-center lg:text-left"
+                            title="Security"
+                            description=" We prioritize secure data communication and storage in all our solutions."
+                             titleClassName="text-[#1B1B26] text-center text-[20px] lg:text-left "
+                             descriptionClassName="text-[#3A3846]  text-[13px] text-center lg:text-left"
+                            className = 'flex flex-col lg:flex-row gap-5 items-center lg:items-start'
+                               imageClassName= 'w-15'
+                            />
+                               <TitleDescription
+                            image={icons.whyusicon}
+                            title="Scalability"
+                            description=" Our solutions grow with your business, ensuring long-term viability"
+                            titleClassName="text-[#1B1B26] text-center text-[20px] lg:text-left "
+                             descriptionClassName="text-[#3A3846]  text-[13px] text-center lg:text-left"
+                            className = 'flex flex-col lg:flex-row gap-5 items-center lg:items-start'
+                               imageClassName= 'w-15'
+                            />
+                               <TitleDescription
+                            image={icons.whyusicon}
+                            title="Support"
+                            description=" From consultation to deployment and maintenance, we’re with you every step of the way."
+                            titleClassName="text-[#1B1B26] text-center text-[20px] lg:text-left "
+                             descriptionClassName="text-[#3A3846]  text-[13px] text-center lg:text-left"
                             className = 'flex flex-col lg:flex-row gap-5 items-center lg:items-start'
                                imageClassName= 'w-15'
                             />
                             
                         </div>
                 </div>
-                <div className="w-[100%]">
+                <div className="w-[100%] ">
                     <Image src={images.whyus1} alt="aboutus_image"  className=" w-full mt-7 lg:mt-0" />
                     <div className="flex gap-5 mt-5  ">
                             <Image src={images.whyus2} alt="whyus2" className="w-1/2"/>
