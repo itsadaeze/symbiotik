@@ -2,6 +2,7 @@
 import AboutUs from "./components/aboutus";
 import HeroContainer from "./components/hero";
 import ProductSection from "./components/services";
+import Testimonial from "./components/testimonials";
 import WhyChooseUs from "./components/whyus";
 
 
@@ -13,6 +14,7 @@ export default function Home() {
     <AboutUs/>
     <ProductSection/>
     <WhyChooseUs/>
+    <Testimonial />
 
    </div>
   );
