@@ -1,8 +1,8 @@
 'use client'
 import Image from "next/image";
 import React from "react";
-import * as images from './../../../public/assets/images';
-import * as icons from './../../../public/assets/icons';
+import * as images from '../../public/assets/images';
+import * as icons from '../../public/assets/icons';
 import Button from "./ui/Button";
 import TitleDescription from "./ui/titleDescription";
 

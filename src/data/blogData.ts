@@ -1,9 +1,9 @@
 export const blogPosts = [
     {
       id: 1,
-      slug: "how-to-improve-productivity",
-      title: "How to Improve Productivity",
-      imageSrc: "/assets/images/blog1.jpg",
+      slug: "How Smart Meters Are Transforming Energy Usage",
+      title: "How Smart Meters Are Transforming Energy Usage",
+      imageSrc: "/assets/images/blog1.png",
       content: `
         Boosting productivity involves setting clear goals, minimizing distractions, and using task management tools...
         This guide walks you through proven strategies to optimize your daily workflow.
@@ -11,9 +11,9 @@ export const blogPosts = [
     },
     {
       id: 2,
-      slug: "top-5-marketing-strategies",
-      title: "Top 5 Marketing Strategies",
-      imageSrc: "/assets/images/blog2.jpg",
+      slug: "Case Study: Custom PCB for Industrial Sensors",
+      title: "Case Study: Custom PCB for Industrial Sensors",
+      imageSrc: "/assets/images/blog2.png",
       content: `
         Learn the top 5 marketing strategies to scale your business in 2025. From social media to influencer partnerships...
         We break down actionable steps for each strategy to help you get results.
@@ -21,9 +21,9 @@ export const blogPosts = [
     },
     {
       id: 3,
-      slug: "design-trends-to-watch",
-      title: "Design Trends to Watch in 2025",
-      imageSrc: "/assets/images/blog3.jpg",
+      slug: "Portable Solar in Remote Learning Environments",
+      title: "Portable Solar in Remote Learning Environments",
+      imageSrc: "/assets/images/bog3.png",
       content: `
         Stay ahead of the curve with these emerging design trends. Discover what will shape websites, branding, and UX...
         Embrace modern minimalism, 3D visuals, and more.

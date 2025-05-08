@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import * as icons from '../../../../public/assets/icons'
+import * as icons from '../../../public/assets/icons'
 import NavLinks from '../ui/navLinks';
 
 import Button from '../ui/Button';

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import * as icons from "../../../../public/assets/icons";
+import * as icons from "../../../public/assets/icons";
 import Image from "next/image";
 import FooterLinks from "../ui/footerLinks";
 
