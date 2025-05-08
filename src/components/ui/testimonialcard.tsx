@@ -22,10 +22,10 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   description,
 }) => {
   return (
-    <div className={`w-[55%] bg-[#0E70E8] border border-[#0E70E8] rounded-[12px] flex-shrink-0 ${className}`}>
+    <div className={`w-[70%] md:w-[55%] bg-[#0E70E8] border border-[#0E70E8] rounded-[12px] flex-shrink-0 ${className}`}>
       <div className="w-full h-[300px] px-5 py-4 flex flex-col justify-between">
         
-        <p className="text-[20px] font-[400] text-white w-[90%] text-start mt-4">{description}</p>
+        <p className="text-[20px] font-[400] text-white md:w-[90%] text-start mt-4">{description}</p>
 
       
         <div className="flex gap-3 items-center mt-4">

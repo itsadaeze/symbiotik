@@ -1,4 +1,5 @@
 
+import ContactForm from "@/components/contact";
 import AboutUs from "../components/aboutus";
 import BlogSection from "../components/blog";
 
@@ -21,8 +22,8 @@ export default function Home() {
     <WhyChooseUs/>
     <ProductSection/>
     <Testimonial />
-    
-    <BlogSection />
+   <BlogSection />
+   <ContactForm />
    </div>
   );
 }

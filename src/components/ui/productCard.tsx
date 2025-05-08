@@ -12,10 +12,10 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ imageSrc, title, price, onViewDetails }) => {
   return (
-    <div className="bg-[#F5F5F5] rounded-lg shadow-md p-4 flex flex-col items-start text-left w-[25%]">
-      <div className="relative w-full h-60 mb-3">
-        <Image src={imageSrc} alt={title} fill className="object-cover rounded-[20px]" />
-      </div>
+    <div className="bg-[#F5F5F5] rounded-lg shadow-md p-4 flex flex-col items-start text-left w-[350px] ">
+              <div className="relative w-full h-60 mb-3">
+                <Image src={imageSrc} alt={title} fill className="object-cover rounded-[20px] " />
+              </div>
       <h3 className="text-[20px] font-semibold text-[#1B1B26] mb-1 text-left h-16">{title}</h3>
     
       <div className="flex justify-between w-full items-center ">

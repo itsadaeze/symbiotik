@@ -61,18 +61,18 @@ const Testimonial = () => {
     <section className=" bg-[#0F7BFF] px-[1rem] py-10  w-full md:px-[2rem] lg:px-8 ">
       <div className="max-w-[1400px] mx-auto">
         <div className="flex flex-col lg:flex-row items-center  ">
-          <div className=" w-[70%]">
+          <div className="w-full md:w-[70%] flex flex-col items-center md:items-start">
             <Button
               text="Testimonials"
               textColor="text-[#1B1B26]"
               borderColor="border-1 border-[#FFFFFF]"
               className="font-[400] py-2 text-[white] text-[16px] lg:text-[20px]  "
             />
-            <p className="font-[600] text-[56px] text-white leading-15 mt-5">
+            <p className="font-[600] text-[36px] text-center md:text-left lg:text-[56px] text-white leading-15 mt-5">
               Our Customers Testimonials
             </p>
 
-            <div className="flex gap-2">
+            <div className="flex gap-2 justify-center md:justify-start">
               <div className="flex gap-1">
                 <Image src={icons.rating} alt="rating" className="w-4" />
                 <Image src={icons.rating} alt="rating" className="w-4" />
@@ -82,12 +82,12 @@ const Testimonial = () => {
               </div>
               <p className="text-white font-[400] text-[20px]">45 Reviews</p>
             </div>
-            <div className="flex gap-5 mt-3 text-white">
+            <div className="flex gap-10 md:gap-5 mt-3 text-white ">
               <div>
                 <p className="text-[36px] font-[700] ">12K</p>
                 <p className="text-[18px] font-[400]">Customers</p>
               </div>
-              <div>
+              <div className="flex flex-col items-center md:items-start">
                 <p className="text-[36px] font-[700] ">23K+</p>
                 <p className="text-[18px] font-[400] ">Services Completed</p>
               </div>

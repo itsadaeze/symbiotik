@@ -16,11 +16,11 @@ export default function ContactForm() {
   };
 
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-3xl p-10 max-w-6xl mx-auto my-12 shadow-2xl">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-2">Let’s Build Something Together</h2>
-      <p className="text-center text-lg mb-8">Contact us for a free consultation and quote</p>
+    <section className="bg-gradient-to-r from-[#0B57B5] to-[#06346B] text-white rounded-3xl p-10 max-w-6xl mx-auto my-12 shadow-2xl w-[95%]  ">
+      <h2 className="text-3xl md:text-[48px]  font-bold text-center mb-2 mt-3">Let’s Build Something Together</h2>
+      <p className="text-center font-normal text-[20px] mb-8">Contact us for a free consultation and quote</p>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-2 gap-8 py-10">
         {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="relative">
@@ -31,7 +31,7 @@ export default function ContactForm() {
               placeholder="Full Name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full pl-10 pr-4 py-3 rounded-full border border-white bg-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-full pl-10 pr-4 py-3 rounded-[20px] border border-white bg-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-white"
               required
             />
           </div>
@@ -43,7 +43,7 @@ export default function ContactForm() {
               placeholder="enter email address"
               value={formData.email}
               onChange={handleChange}
-              className="w-full pl-10 pr-4 py-3 rounded-full border border-white bg-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-full pl-10 pr-4 py-3 rounded-[20px] border border-white bg-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-white"
               required
             />
           </div>
@@ -65,20 +65,20 @@ export default function ContactForm() {
         </form>
 
         {/* Contact Info */}
-        <div className="bg-blue-900/30 rounded-2xl p-6 space-y-6 border border-white/20">
-          <div>
+        <div className="bg-blue-900/30 rounded-2xl p-6 space-y-6 border border-white/20 ">
+          <div className="flex items-center gap-15 ">
             <h4 className="font-semibold text-lg mb-1">Address</h4>
             <p>Somewhere in the world</p>
           </div>
-          <div className="border-t border-white/30 pt-4">
+          <div className="border-t border-white/30 pt-4 flex items-center gap-15">
             <h4 className="font-semibold text-lg mb-1">Contact</h4>
             <p>+234-343-343-232</p>
           </div>
-          <div className="border-t border-white/30 pt-4">
+          <div className="border-t border-white/30 pt-4 flex items-center gap-15">
             <h4 className="font-semibold text-lg mb-1">Address</h4>
             <p>Top-tier solar equipment from trusted manufacturers</p>
           </div>
-          <div className="border-t border-white/30 pt-4">
+          <div className="border-t border-white/30 pt-4 flex items-center gap-15">
             <h4 className="font-semibold text-lg mb-1">Socials</h4>
             <div className="flex space-x-4 mt-2 text-2xl">
               <FaWhatsapp className="hover:text-green-400 cursor-pointer" />

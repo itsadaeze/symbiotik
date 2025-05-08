@@ -59,7 +59,7 @@ const ProductSection = () => {
           />
           </div>
            <p className='text-[18px] font-[400] text-[#3A3846] text-center mt-7'> Explore our growing range of innovative, user-friendly electronics built to simplify life and optimize energy usage.</p>
-        <div className="flex flex-wrap justify-center gap-6 py-10 ">
+           <div className="flex flex-wrap justify-center gap-6 mt-10">
           {products.map((product) => (
             <ProductCard
               key={product.id}
