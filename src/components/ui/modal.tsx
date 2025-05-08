@@ -24,7 +24,7 @@ const Modal: React.FC<ModalProps> = ({
 
   return (
     <div className="fixed inset-0 backdrop-blur-sm bg-black/30 flex justify-center items-center z-50">
-      <div className="bg-[#F5F5F5] rounded-lg p-6 w-full max-w-[60%] relative">
+      <div className="bg-[#F5F5F5] rounded-lg p-6  w-full max-w-[90%] md:max-w-[60%] relative">
         <div className="relative w-full h-70 mb-4">
           <Image
             src={imageSrc}
