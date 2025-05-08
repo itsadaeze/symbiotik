@@ -48,7 +48,7 @@ const ProductSection = () => {
   const [selectedProduct, setSelectedProduct] = useState<null | typeof products[0]>(null);
 
   return (
-    <section className="py-12 bg-white">
+    <section id="product" className="py-12 bg-white">
      <div className='max-w-[1400px] mx-auto'>
       <div className="flex justify-center items-center ">
      <Button

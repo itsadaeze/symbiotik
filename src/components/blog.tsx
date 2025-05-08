@@ -6,7 +6,7 @@ import Button from "./ui/Button";
 
 const BlogSection = () => {
   return (
-    <section className="py-12 bg-white">
+    <section id="blog" className="py-12 bg-white">
      <div className='max-w-[1400px] mx-auto'>
       <div className="flex flex-col justify-center items-center ">
         <Button

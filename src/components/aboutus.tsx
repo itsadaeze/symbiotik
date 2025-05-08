@@ -8,7 +8,7 @@ import TitleDescription from "./ui/titleDescription";
 
 const AboutUs = () => {
     return(
-        <div id="aboutus" className="bg-[#FFFFFF] px-[1rem] py-10 md:py-20 w-full md:px-[2rem] lg:px-8 ">
+        <div id="about" className="bg-[#FFFFFF] px-[1rem] py-10 md:py-20 w-full md:px-[2rem] lg:px-8 ">
         <div className="max-w-[1400px] mx-auto flex flex-col  ">
          <div className="flex flex-col-reverse lg:flex-row justify-between gap-[4%] items-center lg:items-start">
             <Image src={images.aboutus_image} alt="aboutus_image"  className=" w-full mt-7 lg:mt-0" />

@@ -49,7 +49,7 @@ const ServicesSection = () => {
   };
 
   return (
-    <section className=" bg-[#F5F5F5] px-[1rem] py-10  w-full md:px-[2rem] lg:px-8 ">
+    <section id="service" className=" bg-[#F5F5F5] px-[1rem] py-10  w-full md:px-[2rem] lg:px-8 ">
       <div className="max-w-[1400px] mx-auto">
         <div className="flex justify-between  flex-row- items-center mb-4 ">
           <Button
